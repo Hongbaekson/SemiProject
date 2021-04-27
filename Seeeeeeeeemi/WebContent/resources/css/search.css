@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/*datepicker에서 사용한 이미지 버튼 style적용*/
+img.ui-datepicker-trigger {
+	margin-left: 5px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+input {
+	padding: 10px;
+	font-family: "Open Sans", Verdana, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	border-radius: 0 !important;
+}
+
+.form-control {
+	border-radius: 0 !important;
+	font-size: 12x;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.input-group-addon.primary {
+	color: rgb(255, 255, 255);
+	background-color: rgb(50, 118, 177);
+	border-color: rgb(40, 94, 142);
+}
+
+.input-group-addon.success {
+	color: rgb(255, 255, 255);
+	background-color: rgb(92, 184, 92);
+	border-color: rgb(76, 174, 76);
+}
+
+.input-group-addon.info {
+	color: rgb(255, 255, 255);
+	background-color: rgb(57, 179, 215);
+	border-color: rgb(38, 154, 188);
+}
+
+.input-group-addon.warning {
+	color: rgb(255, 255, 255);
+	background-color: rgb(240, 173, 78);
+	border-color: rgb(238, 162, 54);
+}
+
+.input-group-addon.danger {
+	color: rgb(255, 255, 255);
+	background-color: rgb(217, 83, 79);
+	border-color: rgb(212, 63, 58);
+}
+
+
+

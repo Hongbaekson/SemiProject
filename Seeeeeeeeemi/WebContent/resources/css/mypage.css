@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+
+#mypage-nav {
+	width:1000px;
+	margin:0 auto;
+	text-align:center;
+}
+
+#mypage-nav ul>li {
+	display: inline-block;
+}
+#mypage-nav ul>li>a {
+	display:block;
+	padding: 20px 30px;
+	font-weight:600;
+	color:blue;
+	font-size: 16px;
+}
+
+.loginform div input~p{
+	color:red;
+	margin-top: 6px;
+    font-size: 12px;
+}
+
+.test {
+	border: 1px solid blue;
+	background-color: lightgray;
+	height: 100%;
+}
+
+#email1.form-control {
+	width: 100%;
+
+}
+
+.booking-header {
+	display: block;
+	border:1px solid #ccc;
+}
+
+.booking-header .rr {
+	margin-right: 13px;
+}
+
+.booking-content {
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.booking-content .img-box-inner {
+	padding-top: 20px;
+}
+
+.booking-content .img-box .img-thumnail {
+	object-fit: cover;
+}
+
+.booking-info {
+	padding: 0 50px;
+}
+
+.booking-content .roomname {
+	float: left;
+}
+
+        
+.booking-content .guest {
+	float: right;
+}
+
+.booking-content .booking-cancel {
+	padding: 0;
+}
+
+.bookmark {
+/* 	border: 1px solid #ccc; */
+	padding: 50px;
+}
+
+.bookmark .room-info {
+	margin: 5px 0;
+}
+
+.bookmark a {
+	margin: 10px 0;
+}
+
+.bookmark button {
+	margin: 10px 0;
+}
+
+.review-info {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 40px 0;
+	padding: 20px;
+}
+
+.review-info .line {
+ 	width: 100%;
+ 	height: 1px;
+/*  	background-color: #ccc; */
+}
+
+.review-info .review-sub {
+/* 	border: 1px solid #ccc; */
+	display: flex;
+	align-items: center;
+}
+
+.review-info .review-main {
+/* 	border: 1px solid darkgray; */
+	display: flex;
+	align-items: center;
+}
+
+.review-info .img-star {
+	padding-top: 10px;
+}
+
+.review-info .col-xs-10 {
+/* 	border: 1px solid #ccc; */
+	margin: 0 auto;
+}
+
+.review-info .review-content {
+	width: 600px;
+/* 	border: 1px solid #ccc; */
+/* 	margin-left: 50px; */
+}
+
+
+
+
